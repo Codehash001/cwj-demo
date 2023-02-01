@@ -236,8 +236,8 @@ const handleNav = () => {
           <div className='w-[200px] h-full bg-gray-500'></div>
         {/* main image */}
           <div className='w-full h-full bg-yellow-300'>
-            <div className='w-[600px] h-[800px] p-8 rounded-md'>
-              <img src='/5.jpg' className='object-cover'/>
+            <div className='p-8 rounded-md'>
+              <img src='/5.jpg' className='w-[600px] h-[800px] '/>
             </div>
           </div>
         {/* home-text */}
