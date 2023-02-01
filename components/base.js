@@ -242,7 +242,7 @@ const handleNav = () => {
             </div></span>
           </div>
         {/* main image */}
-          <div className='w-[1000px] h-full flex flex-col items-end'>
+          <div className='w-[1000px] h-full flex flex-col items-end bg-slate-500'>
             <div className='p-8 rounded-md'>
               <img src='/5.jpg' className='w-auto h-[550px] rounded-md'/>
             </div>
