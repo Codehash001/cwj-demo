@@ -234,11 +234,11 @@ const handleNav = () => {
        <div className='h-screen w-full bg-gray-200 flex pt-[60px]'>
         {/* veticle menu */}
           <div className='w-[120px] h-full flex flex-row items-end'> 
-            <span className='rotate-90'><div className='flex justify-center'>
-              <h1>Facebook</h1>
-              <h1>Insta</h1>
-              <h1>Discord</h1>
-              <h1>Opeansea</h1>
+            <span className='-rotate-90'><div className='flex justify-center'>
+              <h1 className='mx-4'>Facebook</h1>
+              <h1 className='mx-4'>Insta</h1>
+              <h1 className='mx-4'>Discord</h1>
+              <h1 className='mx-4'>Opeansea</h1>
             </div></span>
           </div>
         {/* main image */}
