@@ -138,40 +138,26 @@ const handleNav = () => {
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
-            <li className='mx-3 text-[18px] hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-            <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
+            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
             </li>
             <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-            <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>Mint</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
             </li>
             <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>Contact Us</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>ROADMAP</Link>
             </li>
             <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>FAQs</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>TEAM</Link>
+            </li>
+            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
             </li>
             {/* dark mode button and wallet button */}
           <div className='flex items-center justify-between mx-4'>
               <div className='mx-6'>
                  <Darkmodebutton/>
-              </div>
-             
-              {walletAddress ? (
-                  <button
-                    className='text-white dark:text-black font-semibold bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-sm text-sm px-5 py-2.5 text-center'
-                     >
-                    Connected: {walletAddress.slice(0, 6) + '...' + walletAddress.slice(-4)}
-                  </button>
-                ) : ( 
-                  <button
-                    className='text-white dark:text-black font-semibold bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-sm text-sm px-5 py-2.5 text-center'
-                    onClick={connectWalletHandler}
-                     >
-                    Connect wallet
-                  </button> 
-                  )} 
-            
-
+          </div>
           </div>
           </ul>
           </div>
