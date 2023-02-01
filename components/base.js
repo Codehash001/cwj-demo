@@ -233,15 +233,22 @@ const handleNav = () => {
     <div className="" id='home'data-aos="fade">
        <div className='h-screen w-full bg-gray-200 flex pt-[60px]'>
         {/* veticle menu */}
-          <div className='w-[120px] h-full bg-gray-500'></div>
+          <div className='w-[120px] h-full flex flex-row items-end'> 
+            <span className='rotate-90'><div className='flex justify-center'>
+              <h1>Facebook</h1>
+              <h1>Insta</h1>
+              <h1>Discord</h1>
+              <h1>Opeansea</h1>
+            </div></span>
+          </div>
         {/* main image */}
-          <div className='w-[1000px] h-full bg-yellow-300 flex flex-col items-end'>
+          <div className='w-[1000px] h-full flex flex-col items-end'>
             <div className='p-8 rounded-md'>
               <img src='/5.jpg' className='w-auto h-[550px] rounded-md'/>
             </div>
           </div>
         {/* home-text */}
-          <div className='w-full h-full bg-blue-500 flex flex-col items-center pt-[60px]'>
+          <div className='w-full h-full flex flex-col items-center pt-[60px]'>
             <h1 className='text-8xl font-Kanit text-orange-800 font-semibold tracking-normal text-center'>COFFEE</h1>
             <h1 className='text-5xl font-Kanit font-medium text-center tracking-wide'>WITH JESUS</h1>
             <h1 className='text-xl font-Kanit text-center mt-4'>A majestic collection of 300 unique and artistic tokens.</h1>
