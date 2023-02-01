@@ -241,9 +241,13 @@ const handleNav = () => {
             </div>
           </div>
         {/* home-text */}
-          <div className='w-full h-full bg-blue-500flex flex-col items-center'>
-            <h1 className='text-8xl font-Archivo text-orange-700 font-semibold tracking-wide'>COFFEE</h1>
-            <h1 className='text-6xl font-Archivo font-medium'>WITH JESUS</h1>
+          <div className='w-full h-full bg-blue-500flex flex-col items-center pt-[60px]'>
+            <h1 className='text-8xl font-Archivo text-orange-800 font-semibold tracking-wide text-center'>COFFEE</h1>
+            <h1 className='text-5xl font-Archivo font-medium text-center'>WITH JESUS</h1>
+            <h1 className='text-2xl font-Archivo font-medium text-center'>A majestic collection of 300 unique and artistic tokens.</h1>
+            <button className='bg-black px-4 py-2 rounded-md font-Archivo'>
+              Mint an NFT
+            </button>
           </div>
        </div> 
     </div>
