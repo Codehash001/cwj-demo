@@ -237,7 +237,7 @@ const handleNav = () => {
         {/* main image */}
           <div className='w-full h-full bg-yellow-300'>
             <div className='p-8 rounded-md'>
-              <img src='/5.jpg' className='w-[600px] h-[800px] '/>
+              <img src='/5.jpg' className='w-auto h-[600px] '/>
             </div>
           </div>
         {/* home-text */}
