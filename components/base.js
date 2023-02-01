@@ -233,7 +233,7 @@ const handleNav = () => {
     <div className="" id='home'data-aos="fade">
        <div className='h-screen w-full bg-gray-200 flex pt-[60px]'>
         {/* veticle menu */}
-          <div className='w-[120px] h-full flex flex-col items-center justify-center bg-yellow-300'> 
+          <div className='w-[120px] h-full flex flex-col items-center justify-center'> 
             <div className='flex -rotate-90'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Insta</h1>
@@ -242,7 +242,7 @@ const handleNav = () => {
             </div>
           </div>
         {/* main image */}
-          <div className='w-[1000px] h-full flex flex-col items-end bg-slate-500'>
+          <div className='w-[1000px] h-full flex flex-col items-end'>
             <div className='p-8 rounded-md'>
               <img src='/5.jpg' className='w-auto h-[550px] rounded-md'/>
             </div>
