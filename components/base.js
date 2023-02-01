@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import styles from '../styles/text.css'
 import { useState,useEffect } from "react"
 import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
@@ -234,7 +235,7 @@ const handleNav = () => {
        <div className='h-screen w-full bg-gray-200 flex pt-[60px]'>
         {/* veticle menu */}
           <div className='w-[120px] h-full flex flex-row items-center bg-yellow-300'> 
-            <span className=''><div className='flex flex-row justify-between'>
+            <span class='container'><div className='justify-between'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Insta</h1>
               <h1 className='mx-4'>Discord</h1>
