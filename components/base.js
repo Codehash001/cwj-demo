@@ -232,8 +232,15 @@ const handleNav = () => {
 
     <div className="mt-[100px]" id='home'data-aos="fade">
        <div className='h-screen w-full bg-gray-200 flex'>
+        {/* veticle menu */}
           <div className='w-[200px] h-full bg-gray-500'></div>
-          <div className='w-full h-full bg-yellow-300'></div>
+        {/* main image */}
+          <div className='w-full h-full bg-yellow-300'>
+            <div className='w-full h-full m-8 rounded-md'>
+              <img src='/5.jpg' className='object-cover'/>
+            </div>
+          </div>
+        {/* home-text */}
           <div className='w-full h-full bg-blue-500'></div>
        </div> 
     </div>
