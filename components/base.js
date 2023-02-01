@@ -235,7 +235,7 @@ const handleNav = () => {
         {/* veticle menu */}
           <div className='w-[280px] h-full bg-gray-500'></div>
         {/* main image */}
-          <div className='w-full h-full bg-yellow-300 flex flex-col items-end'>
+          <div className='w-auto h-full bg-yellow-300 flex flex-col items-end'>
             <div className='p-8 rounded-md'>
               <img src='/5.jpg' className='w-auto h-[500px] rounded-md'/>
             </div>
@@ -244,8 +244,8 @@ const handleNav = () => {
           <div className='w-full h-full bg-blue-500 flex flex-col items-center pt-[60px]'>
             <h1 className='text-8xl font-Kanit text-orange-800 font-semibold tracking-wide text-center'>COFFEE</h1>
             <h1 className='text-5xl font-Kanit font-medium text-center'>WITH JESUS</h1>
-            <h1 className='text-2xl font-Kanit font-medium text-center'>A majestic collection of 300 unique and artistic tokens.</h1>
-            <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white'>
+            <h1 className='text-xl font-Kanit text-center mt-4'>A majestic collection of 300 unique and artistic tokens.</h1>
+            <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-4'>
               Mint an NFT
             </button>
           </div>
