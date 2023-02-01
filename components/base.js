@@ -231,7 +231,11 @@ const handleNav = () => {
     {/* home */}
 
     <div className="mt-[100px]" id='home'data-aos="fade">
-       <div className='h-screen w-full bg-gray-200'></div> 
+       <div className='h-screen w-full bg-gray-200 flex'>
+          <div className='w-[100px] h-full bg-gray-500'></div>
+          <div className='w-full h-full bg-yellow-300'></div>
+          <div className='w-full h-full bg-blue-500'></div>
+       </div> 
     </div>
 
     {/* slide */}
