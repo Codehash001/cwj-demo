@@ -177,13 +177,7 @@ const handleNav = () => {
       }>
       <div className='flex w-full items-center justify-between'>
       <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-                <a>
-                   <img
-              src="/logo.jpeg"
-              alt='/'
-              className='cursor-pointer rounded-lg w-[40px] h-[40px]'
-            /> 
-                </a>
+
               </Link>
               <div onClick={handleNav}
               className='rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
@@ -192,7 +186,7 @@ const handleNav = () => {
           </div>
           <div className='border-b py-4 flex flex-col mt-4'>
               <p className='uppercase text-[18px] font-Archivo text-center font-semibold'>
-              Skull Klub Limit Less
+              cwj
               </p>
             </div>
             <div  className='py-4 flex flex-col '>
@@ -231,9 +225,9 @@ const handleNav = () => {
     {/* home */}
 
     <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full bg-gray-200 flex pt-[60px] border-r-2 border-gray-900'>
+       <div className='h-screen w-full flex pt-[60px]'>
         {/* veticle menu */}
-          <div className='w-[120px] h-full flex flex-col items-center justify-center'> 
+          <div className='w-[120px] h-full flex flex-col items-center justify-center border-r-2 border-gray-900'> 
             <div className='flex -rotate-90'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Insta</h1>
