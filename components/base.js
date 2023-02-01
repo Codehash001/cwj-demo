@@ -241,7 +241,10 @@ const handleNav = () => {
             </div>
           </div>
         {/* home-text */}
-          <div className='w-full h-full bg-blue-500'></div>
+          <div className='w-full h-full bg-blue-500flex flex-col items-center'>
+            <h1 className='text-8xl font-Archivo text-orange-700 font-semibold tracking-wide'>COFFEE</h1>
+            <h1 className='text-6xl font-Archivo font-medium'>WITH JESUS</h1>
+          </div>
        </div> 
     </div>
 
