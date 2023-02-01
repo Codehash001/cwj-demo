@@ -126,31 +126,24 @@ const handleNav = () => {
     {/* nav */}
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-20 px-2 lg:px-8 bg-transparent filter backdrop-blur-md'>
-          <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <a>
-            <img
-              src="/logo.jpeg"
-              alt='/'
-              className='cursor-pointer rounded-lg w-[40px] h-[40px]'
-            /> 
-            
-          </a>
+        <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
+          <h1 className='font-Archivo text-sm flex'><span className='font-semibold'>COffee</span> With Jesus</h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
-            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
             <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
             </li>
-            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
               <Link className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
             </li>
-            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
               <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>ROADMAP</Link>
             </li>
-            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
               <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>TEAM</Link>
             </li>
-            <li className='mx-3 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
+            <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
               <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
             </li>
             {/* dark mode button and wallet button */}
