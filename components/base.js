@@ -125,7 +125,7 @@ const handleNav = () => {
     <>
     {/* nav */}
     <div>
-    <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-20 px-2 lg:px-8 bg-transparent filter backdrop-blur-md'>
+    <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-8 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
           <h1 className='font-Archivo text-sm flex'><span className='font-semibold'>COffee</span> With Jesus</h1>
         </Link>
@@ -230,14 +230,14 @@ const handleNav = () => {
 
     {/* home */}
 
-    <div className="mt-[100px]" id='home'data-aos="fade">
+    <div className="pt-[60px]" id='home'data-aos="fade">
        <div className='h-screen w-full bg-gray-200 flex'>
         {/* veticle menu */}
           <div className='w-[200px] h-full bg-gray-500'></div>
         {/* main image */}
-          <div className='w-full h-full bg-yellow-300'>
+          <div className='w-full h-full bg-yellow-300 flex flex-col items-end'>
             <div className='p-8 rounded-md'>
-              <img src='/5.jpg' className='w-auto h-[600px] '/>
+              <img src='/5.jpg' className='w-auto h-[600px] rounded-md'/>
             </div>
           </div>
         {/* home-text */}
