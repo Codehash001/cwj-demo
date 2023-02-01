@@ -230,8 +230,8 @@ const handleNav = () => {
 
     {/* home */}
 
-    <div className="pt-[60px]" id='home'data-aos="fade">
-       <div className='h-screen w-full bg-gray-200 flex'>
+    <div className="" id='home'data-aos="fade">
+       <div className='h-screen w-full bg-gray-200 flex pt-[60px]'>
         {/* veticle menu */}
           <div className='w-[280px] h-full bg-gray-500'></div>
         {/* main image */}
