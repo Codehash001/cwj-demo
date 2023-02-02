@@ -237,7 +237,7 @@ const handleNav = () => {
           </div>
 
         {/* home texts */}
-          <div className='w-[250px] flex flex-col items-center justify-start py-2 px-2 bg-yellow-300'>
+          <div className='w-[300px] flex flex-col items-center justify-start py-2 px-2 bg-yellow-300'>
             <div className='flex flex-col items-start'>
               <h1 className='font-Kanit text-justify mb-2 text-4xl'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
@@ -250,9 +250,9 @@ const handleNav = () => {
           <div className='w-full h-full flex flex-col items-center py-2 bg-red-400'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='flex item-center justify-between mt-6'>
-                <img src='/5.jpg' className='w-[1800px] h-[280px] rounded-md mx-4'/>
-                <img src='/5.jpg' className='w-[1800px] h-[280px] rounded-md mx-4'/>
-                <img src='/5.jpg' className='w-[1800px] h-[280px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[180px] h-[280px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[180px] h-[280px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[180px] h-[280px] rounded-md mx-4'/>
             </div>
           </div>
        </div> 
