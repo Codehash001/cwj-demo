@@ -6,7 +6,7 @@
 
 @layer base{
   body {
-    @apply dark:bg-[#1f1a22] bg-[#dad4cc]
+    @apply dark:bg-[#1f1a22] bg-[#f5f4f4]
     
 
   }
