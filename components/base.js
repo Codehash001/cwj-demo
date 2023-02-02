@@ -245,9 +245,9 @@ const handleNav = () => {
             </button>
             </div>
             <div className='flex item-center justify-between'>
-                <img src='/5.jpg' className='w-[400px] h-[400px]'/>
-                <img src='/5.jpg' className='w-[400px] h-[400px]'/>
-                <img src='/5.jpg' className='w-[400px] h-[400px]'/>
+                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
+                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
+                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
             </div>
           </div>
        </div> 
