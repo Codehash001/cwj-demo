@@ -237,7 +237,7 @@ const handleNav = () => {
           </div>
 
         {/* home texts */}
-          <div className='w-[250px]flex flex-col items-center justify-start py-2 px-2 bg-yellow-300'>
+          <div className='w-[250px] flex flex-col items-center justify-start py-2 px-2 bg-yellow-300'>
             <div className='flex flex-col items-start'>
               <h1 className='font-Kanit text-justify mb-2 text-4xl'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
