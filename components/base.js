@@ -240,7 +240,7 @@ const handleNav = () => {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start px-16 py-6 bg-yellow-300'>
             <div className='flex flex-col items-start w-[300px]'>
-              <h1 className='font-Kanit text-start mb-2 text-5xl leading-6'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit text-start mb-2 text-5xl leading-10'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
               <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2'>
               Mint an NFT
@@ -250,7 +250,7 @@ const handleNav = () => {
         {/* home-banners*/}
           <div className='w-full h-full flex flex-col items-end py-6 bg-red-400'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
-            <div className='w-full flex flex-row item-center justify-between mt-6'>
+            <div className='w-[700px] flex flex-row item-center justify-between mt-6'>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
