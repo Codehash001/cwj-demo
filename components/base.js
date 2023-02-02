@@ -239,17 +239,17 @@ const handleNav = () => {
         {/* home texts */}
           <div className='flex flex-col items-center justify-start py-2'>
             <div className='flex flex-col items-center'>
-              <h1 className='text-xl font-Kanit text-center mb-2'><span className='text-orange-800'>A majestic </span><br/>
+              <h1 className='text-xl font-Kanit text-justify mb-2'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
-              <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2'>
+              <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2 text-4xl'>
               Mint an NFT
             </button>
             </div>
           </div>
         {/* home-banners*/}
           <div className='w-full h-full flex flex-col items-center py-2'>
-            <img src='/webbanner.jpg' className='w-[500px] h-auto border-2 border-white rounded-lg'/>
-            <div className='flex item-center justify-between'>
+            <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
+            <div className='flex item-center justify-between mt-6'>
                 <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
                 <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
                 <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
