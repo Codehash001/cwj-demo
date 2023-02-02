@@ -249,7 +249,7 @@ const handleNav = () => {
         {/* home-banners*/}
           <div className='w-auto h-full flex flex-col items-end py-6 bg-red-400'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg mx-4'/>
-            <div className='flex flex-row item-center justify-between mt-6 mx-4'>
+            <div className='w-full flex flex-row item-center justify-between mt-6 mx-4'>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
