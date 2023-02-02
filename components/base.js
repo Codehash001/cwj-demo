@@ -212,7 +212,7 @@ const handleNav = () => {
         </div>
 
         <div className='flex flex-col items-center justify-between'>
-                    <div className='mx-6'>
+                    <div className='ml-6'>
                         <Darkmodebutton/>
                     </div>
         </div>
@@ -225,7 +225,7 @@ const handleNav = () => {
     {/* home */}
 
     <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full flex pt-[60px]'>
+       <div className='h-screen w-full flex pt-[60px] pr-8'>
         {/* veticle menu */}
           <div className='w-[120px] h-full flex flex-col items-center justify-center border-r-2 border-gray-900'> 
             <div className='flex -rotate-90 font-medium'>
@@ -240,7 +240,7 @@ const handleNav = () => {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start px-16 py-6 bg-yellow-300'>
             <div className='flex flex-col items-start w-[300px]'>
-              <h1 className='font-Kanit text-start mb-2 text-5xl leading-relaxed'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit text-start mb-2 text-5xl leading-6'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
               <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2'>
               Mint an NFT
