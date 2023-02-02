@@ -240,10 +240,10 @@ const handleNav = () => {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start px-16 py-6'>
             <div className='flex flex-col items-start w-[300px]'>
-              <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
-              <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2'>
-              Mint an NFT
+              <button className='bg-black px-6 py-2 rounded-md font-Archivo text-white mt-6 font-semibold'>
+              MINT NOW
             </button>
             </div>
           </div>
