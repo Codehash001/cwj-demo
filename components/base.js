@@ -235,19 +235,20 @@ const handleNav = () => {
               <h1 className='mx-4'>Opeansea</h1>
             </div>
           </div>
-        {/* main image */}
-          <div className='w-[1000px] h-full flex flex-col items-end'>
-            <div className='p-8 rounded-md'>
-              <img src='/5.jpg' className='w-auto h-[550px] rounded-md'/>
-            </div>
-          </div>
         {/* home-text */}
           <div className='w-full h-full flex flex-col items-center pt-[60px]'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
-            <h1 className='text-xl font-Kanit text-center mt-4'>A majestic collection of 300 unique and artistic tokens.</h1>
-            <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-6'>
+            <div className='flex items-center mt-4'>
+              <h1 className='text-xl font-Kanit text-center'>A majestic collection of 300 unique and artistic tokens.</h1>
+            <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white'>
               Mint an NFT
             </button>
+            </div>
+            <div className='flex item-center justify-between'>
+              <div className='w-[400px] h-[400px] rounded-md'>
+                <img src='/5.jpg' className='object-cover'/>
+              </div>
+            </div>
           </div>
        </div> 
     </div>
