@@ -236,7 +236,7 @@ const handleNav = () => {
               <h1 className='mx-4'>Ribble</h1>
             </div>
           </div>
-          <div className='flex w-auto'>
+          <div className='flex'>
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start px-16 py-6'>
             <div className='flex flex-col items-start w-[300px]'>
