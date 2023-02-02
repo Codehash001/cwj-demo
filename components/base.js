@@ -237,11 +237,11 @@ const handleNav = () => {
           </div>
 
         {/* home texts */}
-          <div className='flex flex-col items-center justify-start py-2'>
+          <div className='flex flex-col items-center justify-start py-2 px-2'>
             <div className='flex flex-col items-center'>
-              <h1 className='text-xl font-Kanit text-justify mb-2'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit text-justify mb-2 text-4xl'><span className='text-orange-800 text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
-              <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2 text-4xl'>
+              <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white mt-2'>
               Mint an NFT
             </button>
             </div>
@@ -250,9 +250,9 @@ const handleNav = () => {
           <div className='w-full h-full flex flex-col items-center py-2'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='flex item-center justify-between mt-6'>
-                <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
-                <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
-                <img src='/5.jpg' className='w-[240px] h-[320px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[220px] h-[300px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[220px] h-[300px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[220px] h-[300px] rounded-md mx-4'/>
             </div>
           </div>
        </div> 
