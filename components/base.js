@@ -125,7 +125,7 @@ const handleNav = () => {
     <>
     {/* nav */}
     <div>
-    <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-8 bg-transparent filter backdrop-blur-md'>
+    <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
           <h1 className='font-Archivo text-sm flex'><span className='font-semibold'>COffee</span> With Jesus</h1>
         </Link>
@@ -147,8 +147,8 @@ const handleNav = () => {
               <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
             </li>
             {/* dark mode button and wallet button */}
-          <div className='flex items-center justify-between mx-4'>
-              <div className='mx-6'>
+          <div className='flex items-center justify-between'>
+              <div className='ml-6'>
                  <Darkmodebutton/>
           </div>
           </div>
@@ -225,7 +225,7 @@ const handleNav = () => {
     {/* home */}
 
     <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full flex pt-[60px] pr-8'>
+       <div className='h-screen w-full flex pt-[60px] pr-16'>
         {/* veticle menu */}
           <div className='w-[120px] h-full flex flex-col items-center justify-center border-r-2 border-gray-900'> 
             <div className='flex -rotate-90 font-medium'>
