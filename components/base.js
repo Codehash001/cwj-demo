@@ -236,18 +236,18 @@ const handleNav = () => {
             </div>
           </div>
         {/* home-text */}
-          <div className='w-full h-full flex flex-col items-center pt-[60px]'>
+          <div className='w-full h-full flex flex-col items-center py-2'>
             <img src='/webbanner.jpg' className='w-[800px] h-auto border-2 border-white rounded-lg'/>
-            <div className='flex items-center mt-4'>
+            <div className='flex items-center my-4'>
               <h1 className='text-xl font-Kanit text-center mr-2'>A majestic collection of 300 unique and artistic tokens.</h1>
             <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white ml-2'>
               Mint an NFT
             </button>
             </div>
             <div className='flex item-center justify-between'>
-                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
-                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
-                <img src='/5.jpg' className='w-[300px] h-[300px] rounded-md'/>
+                <img src='/5.jpg' className='w-[240px] h-[300px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[240px] h-[300px] rounded-md mx-4'/>
+                <img src='/5.jpg' className='w-[240px] h-[300px] rounded-md mx-4'/>
             </div>
           </div>
        </div> 
