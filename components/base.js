@@ -237,7 +237,7 @@ const handleNav = () => {
           </div>
         {/* home-text */}
           <div className='w-full h-full flex flex-col items-center pt-[60px]'>
-            <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
+            <img src='/webbanner.jpg' className='w-[800px] h-auto border-2 border-white rounded-lg'/>
             <div className='flex items-center mt-4'>
               <h1 className='text-xl font-Kanit text-center mr-2'>A majestic collection of 300 unique and artistic tokens.</h1>
             <button className='bg-black px-4 py-2 rounded-md font-Archivo text-white ml-2'>
