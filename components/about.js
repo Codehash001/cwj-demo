@@ -11,7 +11,7 @@ function About() {
            </div> 
         </div>
         <div className='h-full flex flex-col justify-end'>
-           <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           <h1 className='W-[300px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
