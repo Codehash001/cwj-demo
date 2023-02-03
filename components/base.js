@@ -263,7 +263,7 @@ const handleNav = () => {
     </div>
 
     {/* slide */}
-    <div className="lg:mx-16 mx-2 ">
+    <div className="w-full h-full bg-blue-400">
       <About/>
     </div>
 
