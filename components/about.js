@@ -10,7 +10,7 @@ function About() {
             <div className='px-6 py-3 rounded-md border'>Join our Discord and get listed for free mint</div>
            </div> 
         </div>
-        <div className='h-full flex flex-col justify-end'>
+        <div className='h-full flex flex-col justify-end items-end'>
            <div className='W-[300px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
