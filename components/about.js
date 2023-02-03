@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full h-full items-center mx-16'>
+    <div className='items-center mx-16'>
         <div className='w-full h-[250px]flex-flex-col items-center'>
            <h1 className='font-Archivo text-4xl text-center'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start justify-between'>
