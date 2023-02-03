@@ -12,6 +12,7 @@ import {
   isPausedState,
   isPublicSaleState,
   publicMint          } from '../ulits/interact'
+import About from './about';
 
 //REMEMBER TO ADD A LOGO
 
@@ -256,14 +257,14 @@ const handleNav = () => {
             </div>
           </div>
           <div className='flex flex-col items-end justify-end absolute bottom-0 -z-10 h-auto overflow-hidden w-full'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,224C384,256,480,256,576,240C672,224,768,192,864,192C960,192,1056,224,1152,224C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,0L80,53.3C160,107,320,213,480,224C640,235,800,149,960,101.3C1120,53,1280,43,1360,37.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
           </div> 
        </div> 
     </div>
 
     {/* slide */}
     <div className="lg:mx-16 mx-2 ">
-      {/* slider */}
+      <About/>
     </div>
 
     {/* mint */}
