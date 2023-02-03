@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='items-center mx-16'>
-        <div className='w-full flex-flex-col items-center'>
+    <div>
+        <div className='w-full h-[250px] flex-flex-col items-center bg-blue-400 px-16'>
            <h1 className='font-Archivo text-4xl text-center'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start justify-between'>
             <img src='/5.jpg' className='w-[300px] h-auto'/>
