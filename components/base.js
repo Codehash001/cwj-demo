@@ -234,7 +234,7 @@ const handleNav = () => {
               <h1 className='mx-4'>Instagram</h1>
               <h1 className='mx-4'>Discord</h1>
               <h1 className='mx-4'>Opeansea</h1>
-              <h1 className='mx-4'>Ribble</h1>
+              <h1 className='mx-4'>Liktree</h1>
             </div>
           </div>
         {/* home texts */}
