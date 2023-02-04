@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <div className='w-full h-[250px] flex-flex-col items-center bg-blue-400 pr-16 pl-[184px] pt-8'>
+        <div className='w-full h-[250px] flex-flex-col items-center bg-[#fc9b40] pr-16 pl-[184px] pt-8'>
            <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start my-5'>
             <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg'/>
