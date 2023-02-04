@@ -38,13 +38,13 @@ function About() {
             deserunt mollit anim id est laborum.
             </p>
         </div>
-            <div className='px-6 py-3 rounded-md border mx-6'>
+            <div className='px-6 py-3 rounded-md border'>
               <h1 className='font-Kanit text-3xl'>Join our Discord and get listed for free mint</h1>
             </div>
            
             </div>
 
-            <img src='/5.jpg' className='w-[300px] h-auto'/>
+            <img src='/5.jpg' className='w-[300px] h-auto mx-6'/>
             
            </div> 
         </div>
