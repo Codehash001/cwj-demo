@@ -229,17 +229,17 @@ const handleNav = () => {
       <div className='h-screen'>
        <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[80px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-yellow-300 rounded-full'> 
+          <div className='w-[80px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] filter drop-shadow-md rounded-full'> 
            <div className='flex -rotate-90 font-medium'>
-              <h1 className='mx-4'>Facebook</h1>
-              <h1 className='mx-4'>Instagram</h1>
-              <h1 className='mx-4'>Discord</h1>
-              <h1 className='mx-4'>Opeansea</h1>
-              <h1 className='mx-4'>Liktree</h1>
+              <h1 className='mx-5'>Facebook</h1>
+              <h1 className='mx-5'>Instagram</h1>
+              <h1 className='mx-5'>Discord</h1>
+              <h1 className='mx-5'>Opeansea</h1>
+              <h1 className='mx-5'>Linktree</h1>
             </div>
           </div> 
         {/* home texts */}
-          <div className='w-auto flex flex-col items-center justify-start py-6'>
+          <div className='w-auto flex flex-col items-center justify-start py-6 px-16'>
             <div className='flex flex-col items-start w-[300px]'>
               <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
