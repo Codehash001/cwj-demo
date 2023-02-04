@@ -11,7 +11,7 @@ function About() {
             <div className='px-6 py-3 rounded-md border'>
               <h1 className='font-Kanit text-3xl'>Join our Discord and get listed for free mint</h1>
             </div>
-            <div className='w-[550px] pr-16 pl-[184px]'>
+            <div className='w-[550px] mt-16'>
            <p className='text-xl font-Kanit text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
