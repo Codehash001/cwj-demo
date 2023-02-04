@@ -3,8 +3,8 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <div className='w-full h-[250px] flex-flex-col items-center bg-blue-400 pr-16 pl-[184px]'>
-           <h1 className='font-Archivo text-6xl text-center font-semibold my-8'>Welcome to Cafe ParadiseBean!</h1>
+        <div className='w-full h-[250px] flex-flex-col items-center bg-blue-400 pr-16 pl-[184px] pt-8'>
+           <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start my-5'>
             <img src='/5.jpg' className='w-[500px] h-auto'/>
             <div className='px-6 py-3 rounded-md border font-Kanit text-3xl mx-6'>Join our Discord and get listed for free mint</div>
