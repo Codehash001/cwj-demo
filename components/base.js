@@ -229,13 +229,13 @@ const handleNav = () => {
       <div className='h-screen'>
        <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] filter shadow drop-shadow-lg rounded-full'> 
-           <div className='flex -rotate-90 font-medium px-8 mx-8'>
-              <h1 className='mx-5'>Facebook</h1>
-              <h1 className='mx-5'>Instagram</h1>
-              <h1 className='mx-5'>Discord</h1>
-              <h1 className='mx-5'>Opeansea</h1>
-              <h1 className='mx-5'>Linktree</h1>
+          <div className='w-[70px] h-screen py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] filter shadow drop-shadow-lg rounded-full'> 
+           <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
+              <h1 className=''>Facebook</h1>
+              <h1 className=''>Instagram</h1>
+              <h1 className=''>Discord</h1>
+              <h1 className=''>Opeansea</h1>
+              <h1 className=''>Linktree</h1>
             </div>
           </div> 
         {/* home texts */}
