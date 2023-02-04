@@ -225,18 +225,28 @@ const handleNav = () => {
 
     {/* home */}
 
-    <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full flex pt-[60px] pr-16'>
-        {/* veticle menu */}
-          <div className='w-[120px] fixed z-[100] h-full flex flex-col items-center justify-center border-r-2 border-gray-900 bg-[#f8f5f5]'> 
-            <div className='flex -rotate-90 font-medium'>
+    <div>
+
+    <div className='w-[120px] h-screen fixed z-[100]  flex flex-col items-center justify-center border-r-2 border-gray-900 bg-[#f8f5f5]'> 
+           <div className='flex -rotate-90 font-medium'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Instagram</h1>
               <h1 className='mx-4'>Discord</h1>
               <h1 className='mx-4'>Opeansea</h1>
               <h1 className='mx-4'>Liktree</h1>
             </div>
-          </div>
+          </div> 
+       <div className='h-screen w-full flex pt-[60px] pr-16'>
+        {/* veticle menu */}
+          {/* <div className='w-[120px] fixed z-[100] h-full flex flex-col items-center justify-center border-r-2 border-gray-900 bg-[#f8f5f5]'> 
+           <div className='flex -rotate-90 font-medium'>
+              <h1 className='mx-4'>Facebook</h1>
+              <h1 className='mx-4'>Instagram</h1>
+              <h1 className='mx-4'>Discord</h1>
+              <h1 className='mx-4'>Opeansea</h1>
+              <h1 className='mx-4'>Liktree</h1>
+            </div>
+          </div>  */}
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start px-16 py-6'>
             <div className='flex flex-col items-start w-[300px]'>
