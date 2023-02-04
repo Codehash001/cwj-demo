@@ -126,7 +126,7 @@ const handleNav = () => {
     <>
     {/* nav */}
     <div>
-    <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
+    <div className='fixed z-[200] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
           <h1 className='font-Archivo text-sm flex'><span className='font-semibold'>COffee</span> With Jesus</h1>
         </Link>
@@ -228,7 +228,7 @@ const handleNav = () => {
     <div className="" id='home'data-aos="fade">
        <div className='h-screen w-full flex pt-[60px] pr-16'>
         {/* veticle menu */}
-          <div className='w-[120px] sticky left-0 h-full flex flex-col items-center justify-center border-r-2 border-gray-900 bg-[#f8f5f5]'> 
+          <div className='w-[120px] fixed z-[100] left-0 h-full flex flex-col items-center justify-center border-r-2 border-gray-900 bg-[#f8f5f5]'> 
             <div className='flex -rotate-90 font-medium'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Instagram</h1>
