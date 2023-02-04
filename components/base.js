@@ -226,7 +226,7 @@ const handleNav = () => {
     {/* home */}
 
     <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full flex pt-[60px] px-16'>
+       <div className='h-screen w-full flex pt-[60px] '>
         {/* veticle menu */}
           <div className='w-[120px] flex flex-col items-center justify-center border border-gray-900 bg-yellow-300 rounded-full'> 
            <div className='flex -rotate-90 font-medium'>
