@@ -231,11 +231,11 @@ const handleNav = () => {
         {/* veticle menu */}
           <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] filter shadow drop-shadow-lg rounded-full'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
-              <h1 className=''>Facebook</h1>
-              <h1 className=''>Instagram</h1>
-              <h1 className=''>Discord</h1>
-              <h1 className=''>Opeansea</h1>
-              <h1 className=''>Linktree</h1>
+              <h1 className='mx-4'>Facebook</h1>
+              <h1 className='mx-4'>Instagram</h1>
+              <h1 className='mx-4'>Discord</h1>
+              <h1 className='mx-4'>Opeansea</h1>
+              <h1 className='mx-4'>Linktree</h1>
             </div>
           </div> 
         {/* home texts */}
