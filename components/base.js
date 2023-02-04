@@ -228,7 +228,7 @@ const handleNav = () => {
     <div className="" id='home'data-aos="fade">
        <div className='h-screen w-full flex pt-[60px] px-16'>
         {/* veticle menu */}
-          <div className='w-[120px] h-auto p-4 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] rounded-full'> 
+          <div className='w-[120px] h-auto flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] rounded-full'> 
            <div className='flex -rotate-90 font-medium'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Instagram</h1>
