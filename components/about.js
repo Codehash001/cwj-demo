@@ -7,7 +7,7 @@ function About() {
            <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start my-5'>
             <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg'/>
-            <div className='flex flex-col items-center mx-6'>
+            <div className='flex flex-col items-center ml-6'>
             <div className='px-6 py-3 rounded-md border'>
               <h1 className='font-Kanit text-3xl'>Join our Discord and get listed for free mint</h1>
             </div>
@@ -37,7 +37,7 @@ Join us on the journey to enlighten the world on this mission.
            
             </div>
 
-            <img src='/webimage2.png' className='w-[400px] h-auto mx-6 rounded-lg'/>
+            <img src='/webimage2.png' className='w-[400px] h-auto ml-6 rounded-lg'/>
             
            </div> 
         </div>
