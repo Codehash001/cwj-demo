@@ -226,9 +226,9 @@ const handleNav = () => {
     {/* home */}
 
     <div className="" id='home'data-aos="fade">
-       <div className='h-screen w-full flex pt-[60px] '>
+       <div className='h-screen w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[120px] flex flex-col items-center justify-center border border-gray-900 bg-yellow-300 rounded-full'> 
+          <div className='py-6 flex flex-col items-center justify-center border border-gray-900 bg-yellow-300 rounded-full'> 
            <div className='flex -rotate-90 font-medium'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Instagram</h1>
@@ -238,7 +238,7 @@ const handleNav = () => {
             </div>
           </div> 
         {/* home texts */}
-          <div className='w-auto flex flex-col items-center justify-start px-16 py-6'>
+          <div className='w-auto flex flex-col items-center justify-start py-6'>
             <div className='flex flex-col items-start w-[300px]'>
               <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
