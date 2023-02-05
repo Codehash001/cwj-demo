@@ -269,7 +269,7 @@ const handleNav = () => {
     {/* slide */}
     <div className='flex flex-col w-full h-full'>
       <About/>
-      <Mintportal/>
+      
     </div>
     
     </>

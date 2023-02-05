@@ -1,4 +1,5 @@
 import React from 'react'
+import Mintportal from './Mintportal'
 
 function About() {
   return (
@@ -39,7 +40,8 @@ Join us on the journey to enlighten the world on this mission.
 
             <img src='/webimage2.png' className='w-[400px] h-auto ml-6 rounded-lg'/>
             
-           </div> 
+           </div>
+           <Mintportal/>
         </div>
 
     </div>
