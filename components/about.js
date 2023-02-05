@@ -4,12 +4,12 @@ import Mintportal from './Mintportal'
 function About() {
   return (
     <div className='h-auto'>
-             <div className='w-full h-auto bg-[#fc9b40] flex flex-col items-center '>
+             <div className='w-full h-[250px] bg-[#fc9b40] flex flex-col items-center '>
              <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
              </div>
         <div className='w-full h-full flex-flex-col items-center  px-16 pt-8'>
            
-           <div className='flex flex-row items-start my-5'>
+           <div className='flex flex-row items-start mb-5 -mt-10'>
             <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg'/>
             <div className='flex flex-col items-center ml-6'>
             <div className='px-6 py-3 rounded-md border'>
