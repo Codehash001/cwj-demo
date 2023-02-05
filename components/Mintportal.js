@@ -8,12 +8,12 @@ function Mintportal() {
             <h2 className='text-2xl font-medium my-2'>Not connected</h2>
             <div className='flex flex-row items-center justify-between p-4'>
               <img src='/webimage1.png'
-              className='w-[250px] h-[250px] rounded-md border border-white mx-4'/>
-              <div className='w-[300px] mx-4 flex flex-col items-center justify-center'>
+              className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
+              <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
                 <div className="font-Kanit flex items-center justify-evenly w-full">
                   <button
-                    className="w-12 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
                     // onClick={decrementMintAmount}
                     >
                      <svg
@@ -35,7 +35,7 @@ function Mintportal() {
                   {/* {mintAmount}   */} 1
                   </p>
                   <button
-                    className="w-12 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
                     // onClick={incrementMintAmount} 
                     >
                     <svg
@@ -56,7 +56,7 @@ function Mintportal() {
                 </div>
 
                 <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet: 1</h1>
-                <div className='flex flex-row items-center justify-between mt-5 border-t-2 border-b-2'>
+                <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2'>
                   <h1>Total</h1>
                   <h1>0.00 ETH</h1>
                   <h1>+ GAS</h1>
