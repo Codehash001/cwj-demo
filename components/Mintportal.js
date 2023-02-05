@@ -4,8 +4,8 @@ function Mintportal() {
   return (
     <div className='flex flex-col items-center jusitify-center font-Kanit'>
         <div className='w-auto p-6 rounded-lg border border-gray-700 flex flex-col items-center'>
-            <h1 className='text-4xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>Mnting is Live!</h1>
-            <h2 className='text-2xl font-medium my-2'>Not connected</h2>
+            <h1 className='text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>Minting is Live!</h1>
+            <h2 className='text-2xl font-medium mt-1 mb-2'>Not connected</h2>
             <div className='flex flex-row items-center justify-between p-4'>
               <img src='/webimage1.png'
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
@@ -56,7 +56,7 @@ function Mintportal() {
                 </div>
 
                 <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet: 1</h1>
-                <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2'>
+                <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
                   <h1>0.00 ETH</h1>
                   <h1>+ GAS</h1>
