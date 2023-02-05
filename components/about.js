@@ -4,8 +4,8 @@ import Mintportal from './Mintportal'
 function About() {
   return (
     <div className='h-auto'>
-             <div className='w-full h-auto bg-[#fc9b40] flex flex-col items-center mb-8'>
-             <h1 className='font-Archivo text-6xl text-center font-semibold'>Welcome to Cafe ParadiseBean!</h1>
+             <div className='w-full h-auto bg-[#fc9b40] flex flex-col items-center '>
+             <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
              </div>
         <div className='w-full h-full flex-flex-col items-center  px-16 pt-8'>
            
