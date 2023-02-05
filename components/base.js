@@ -13,6 +13,7 @@ import {
   isPublicSaleState,
   publicMint          } from '../ulits/interact'
 import About from './about';
+import Mintportal from './Mintportal';
 
 //REMEMBER TO ADD A LOGO
 
@@ -269,8 +270,11 @@ const handleNav = () => {
     <div>
       <About/>
     </div>
-
+    
     {/* mint */}
+    <div>
+      <Mintportal/>
+    </div>
     </>
   )
 }
