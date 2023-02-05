@@ -8,7 +8,6 @@ import Footer from '../components/footer'
 import FAQs from '../components/FAQs'
 import Mint from '../components/mint'
 import Base from '../components/base'
-import Mintportal from '../components/Mintportal'
 
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
       <Base/>
-      <Mintportal/>
     </div>
   )
 }
