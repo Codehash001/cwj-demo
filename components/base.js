@@ -271,10 +271,6 @@ const handleNav = () => {
       <About/>
     </div>
     
-    {/* mint */}
-    <div>
-      <Mintportal/>
-    </div>
     </>
   )
 }
