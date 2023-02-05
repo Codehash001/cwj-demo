@@ -14,7 +14,7 @@ function Mintportal() {
                 <div className="font-Kanit flex items-center justify-evenly w-full">
                   <button
                     className="w-12 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-md"
-                    onClick={decrementMintAmount}
+                    // onClick={decrementMintAmount}
                     >
                      <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -32,11 +32,11 @@ function Mintportal() {
                     </svg>
                   </button>
                   <p className="flex items-center justify-center flex-1 grow text-center font-bold text-yellow-900 text-3xl md:text-4xl">
-                  {mintAmount}  
+                  {/* {mintAmount}   */}
                   </p>
                   <button
                     className="w-12 h-8 md:w-14 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-md"
-                    onClick={incrementMintAmount} 
+                    // onClick={incrementMintAmount} 
                     >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
