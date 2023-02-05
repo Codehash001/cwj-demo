@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className='w-full h-full'>
         <div className='w-full h-[250px] flex-flex-col items-center bg-[#fc9b40] px-16 pt-8'>
            <h1 className='font-Archivo text-6xl text-center font-semibold mb-8'>Welcome to Cafe ParadiseBean!</h1>
            <div className='flex flex-row items-start my-5'>
