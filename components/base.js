@@ -292,17 +292,18 @@ const handleNav = () => {
     {/* slide */}
       <About/>
       <Mintportal/>
-<div className='flex flex-col items-center justify-between overflow-x-hidden'> 
+
       <Slider {...settings}>
+      <div className='flex flex-col items-center justify-between overflow-x-hidden'> 
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div> 
-                
+         </div>        
             </Slider>
- </div>     
+     
     
     </>
   )
