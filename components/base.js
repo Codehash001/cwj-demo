@@ -282,7 +282,7 @@ const handleNav = () => {
         {/* home-banners*/}
           <div className='w-full h-full flex flex-col items-end py-6'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
-            <div className='w-[700px] flex flex-row item-center justify-between mt-6'>
+            <div className='w-[700px] flex flex-col item-center justify-between mt-6'>
 
                 {/*<img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
@@ -291,6 +291,7 @@ const handleNav = () => {
                  <Swiper
         slidesPerView={3}
         spaceBetween={30}
+        loop={true}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
@@ -299,10 +300,12 @@ const handleNav = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
 
       </Swiper>
                 
