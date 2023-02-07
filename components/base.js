@@ -273,14 +273,12 @@ const handleNav = () => {
           <div className='w-full h-full flex flex-col items-end py-6'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='w-[700px] flex flex-row item-center justify-between mt-6'>
-            <Slider {...settings}>
+
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-            </Slider>
+
             </div>
           </div>
           
@@ -294,6 +292,15 @@ const handleNav = () => {
     {/* slide */}
       <About/>
       <Mintportal/>
+      
+      <Slider {...settings}>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+            </Slider>
       
     
     </>
