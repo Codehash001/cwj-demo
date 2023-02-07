@@ -141,7 +141,8 @@ const handleNav = () => {
         <meta name="Description" content="Coffe with Jesus - demo!" />
         <link rel="icon" href="/Logoicon.png" />
         
-       
+       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
       
     {/* nav */}
@@ -291,7 +292,7 @@ const handleNav = () => {
     {/* slide */}
       <About/>
       <Mintportal/>
-      
+<div className='flex flex-row items-center justify-between overflow-x-hidden'> 
       <Slider {...settings}>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
@@ -301,7 +302,7 @@ const handleNav = () => {
        <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div> 
                 
             </Slider>
-      
+ </div>     
     
     </>
   )
