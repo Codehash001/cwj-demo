@@ -2,8 +2,8 @@ const { createAlchemyWeb3 } = require('@alch/alchemy-web3')
 import { config } from '../dapp.config'
 
 const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL)
-//const contract = require()
-const nftContract = new web3.eth.Contract(config.contractAddress)
+const contract = require('../artifacts/contracts/SKLL.sol/SKLL.json')
+const nftContract = new web3.eth.Contract(contract.abi, config.contractAddress)
 
 
 export const getTotalMinted = async () => {
