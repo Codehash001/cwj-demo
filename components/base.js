@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
-import { useState,useEffect } from "react"
+import React, { useRef, useState , useEffect } from "react";
 import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
 import data from "./data.json";
@@ -16,7 +16,7 @@ import {
 import About from './about';
 import Mintportal from './Mintportal';
 import Slider from "react-slick";
-import React, { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
