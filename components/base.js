@@ -14,6 +14,7 @@ import {
   publicMint          } from '../ulits/interact'
 import About from './about';
 import Mintportal from './Mintportal';
+import Slider from "react-slick";
 
 //REMEMBER TO ADD A LOGO
 
@@ -121,10 +122,28 @@ const handleNav = () => {
 
     setIsMinting(false)
   }
+  
+  const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1
+    };
 
   
   return (
     <>
+    
+    <Head>
+        <title>Coffee With Jesus - Demo</title>
+        <meta name="Description" content="Coffe with Jesus - demo!" />
+        <link rel="icon" href="/Logoicon.png" />
+        
+       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+      </Head>
+      
     {/* nav */}
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
@@ -253,9 +272,14 @@ const handleNav = () => {
           <div className='w-full h-full flex flex-col items-end py-6'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='w-[700px] flex flex-row item-center justify-between mt-6'>
+            <Slider {...settings}>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+            </Slider>
             </div>
           </div>
           
