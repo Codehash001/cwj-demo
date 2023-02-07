@@ -37,3 +37,14 @@ html{
   background:var(--clr-selection-bg);
   color:var(--clr-selection-text);
 }
+
+.swiper-slide {
+  text-align: center;
+  height:auto;
+  width:auto;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -16,6 +16,16 @@ import {
 import About from './about';
 import Mintportal from './Mintportal';
 import Slider from "react-slick";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
+
+// import required modules
+import { Autoplay } from "swiper";
 
 //REMEMBER TO ADD A LOGO
 
@@ -274,10 +284,28 @@ const handleNav = () => {
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='w-[700px] flex flex-row item-center justify-between mt-6'>
 
+                {/*<img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
                 <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
+                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> */}
+                 
+                 <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide>Slide <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+
+      </Swiper>
+                
 
             </div>
           </div>
