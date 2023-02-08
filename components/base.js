@@ -21,7 +21,7 @@ import Slider from "react-slick";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
+//import "swiper/css";
 
 
 // import required modules
