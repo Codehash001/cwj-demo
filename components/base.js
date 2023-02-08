@@ -162,7 +162,7 @@ const handleNav = () => {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>COffee</span>{' '}With Jesus</h1>
+          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>Coffee{' '}</span>{' '}With Jesus</h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
@@ -265,11 +265,11 @@ const handleNav = () => {
         {/* veticle menu */}
           <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#fdfcfc] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
-              <h1 className='mx-4'>Facebook</h1>
-              <h1 className='mx-4'>Instagram</h1>
-              <h1 className='mx-4'>Discord</h1>
-              <h1 className='mx-4'>Opeansea</h1>
-              <h1 className='mx-4'>Linktree</h1>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Facebook</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Instagram</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Discord</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Opeansea</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Linktree</h1></a>
             </div>
           </div> 
         {/* home texts */}
@@ -285,7 +285,7 @@ const handleNav = () => {
         {/* home-banners*/}
           <div className='w-full h-full flex flex-col items-end py-6'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
-            <div className='w-[700px] flex flex-row item-center justify-evenly mt-6 mr-[-20px]'>
+            <div className='w-[700px] flex flex-row item-center justify-evenly mt-6'>
                  
                  <Swiper
         slidesPerView={3}
@@ -299,16 +299,14 @@ const handleNav = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img src='/5.jpg' className='h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist33.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist37.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist41.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
         <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md '/></SwiperSlide>
         <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md '/></SwiperSlide>
         <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md '/></SwiperSlide>
         <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-
-
+        <SwiperSlide> <img src='/nfts/CoffeeChrist302.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist307.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist313.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist351.png' className=' h-[250px] rounded-md '/></SwiperSlide>
       </Swiper>
                 
 
