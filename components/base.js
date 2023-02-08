@@ -27,6 +27,7 @@ import "swiper/css";
 // import required modules
 import { Autoplay } from "swiper";
 import Roadmap from './Roadmap';
+import Team from './Team';
 
 //REMEMBER TO ADD A LOGO
 
@@ -325,6 +326,7 @@ const handleNav = () => {
       <About/>
       <Mintportal/>
       <Roadmap/>
+      <Team/>
      
     
     </>
