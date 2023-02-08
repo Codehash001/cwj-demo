@@ -300,12 +300,12 @@ const handleNav = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className='h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
 
       </Swiper>
                 
