@@ -26,6 +26,7 @@ import "swiper/css";
 
 // import required modules
 import { Autoplay } from "swiper";
+import Roadmap from './Roadmap';
 
 //REMEMBER TO ADD A LOGO
 
@@ -323,17 +324,7 @@ const handleNav = () => {
     {/* slide */}
       <About/>
       <Mintportal/>
-
-      <Slider {...settings} className='overflow-x-hidden flex items-center justify-between'>
-       
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div>
-       <div className='flex flex-col items-center justify-center mx-8'>  <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> </div> 
-        
-            </Slider>
+      <Roadmap/>
      
     
     </>
