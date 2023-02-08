@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import Head from 'next/head';
 
 function Roadmap() {
 
