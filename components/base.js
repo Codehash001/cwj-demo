@@ -162,7 +162,7 @@ const handleNav = () => {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>Coffee{' '}</span>{' '}With Jesus</h1>
+          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>Coffee</span><span className='mx-[1px]'>With</span><span>Jesus</span> </h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
@@ -265,11 +265,11 @@ const handleNav = () => {
         {/* veticle menu */}
           <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#fdfcfc] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
-              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Facebook</h1></a>
-              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Instagram</h1></a>
-              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Discord</h1></a>
-              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Opeansea</h1></a>
-              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Linktree</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Facebook</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Instagram</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Discord</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Opeansea</h1></a>
+              <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Linktree</h1></a>
             </div>
           </div> 
         {/* home texts */}
