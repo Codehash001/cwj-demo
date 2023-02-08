@@ -162,7 +162,7 @@ const handleNav = () => {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>Coffee</span><span className='mx-[1px]'>With</span><span>Jesus</span> </h1>
+          <h1 className='font-Kanit text-[18px] flex'><span className='font-semibold'>Coffee</span><span className='mx-[2px]'>With</span><span>Jesus</span> </h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
@@ -263,7 +263,7 @@ const handleNav = () => {
       <div className='h-screen'>
        <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#fdfcfc] filter shadow drop-shadow-lg rounded-lg'> 
+          <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
               <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Facebook</h1></a>
               <a href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent'>Instagram</h1></a>
@@ -299,14 +299,14 @@ const handleNav = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist302.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist307.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist313.png' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist351.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist302.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist307.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist313.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist351.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
       </Swiper>
                 
 
@@ -320,7 +320,6 @@ const handleNav = () => {
        </div>
     </div>
 
-    {/* slide */}
       <About/>
       <Mintportal/>
       <Roadmap/>
