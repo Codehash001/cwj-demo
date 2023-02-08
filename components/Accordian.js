@@ -8,7 +8,7 @@ export default function Accordian({id , title , content , active , setActive}) {
   return (
     
     
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center">
 
       <div className="flex flex-row justify-between items-center bg-yellow-200 p-4 w-full">
         <h1 className="text-lg font-semibold">{title}</h1>
