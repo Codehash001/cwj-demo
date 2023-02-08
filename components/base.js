@@ -162,7 +162,7 @@ const handleNav = () => {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Archivo text-sm flex'><span className='font-semibold'>COffee</span> With Jesus</h1>
+          <h1 className='font-Kanit text-[18px] flex font-medium'><span className='font-semibold'>COffee</span>{' '}With Jesus</h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
@@ -263,7 +263,7 @@ const handleNav = () => {
       <div className='h-screen'>
        <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#f8f5f5] filter shadow drop-shadow-lg rounded-lg'> 
+          <div className='w-[70px] py-6 flex flex-col items-center justify-center border border-gray-900 bg-[#fdfcfc] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
               <h1 className='mx-4'>Facebook</h1>
               <h1 className='mx-4'>Instagram</h1>
@@ -277,7 +277,7 @@ const handleNav = () => {
             <div className='flex flex-col items-start w-[300px]'>
               <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
-              <button className='bg-black px-6 py-2 rounded-md font-Archivo text-white mt-6 font-semibold'>
+              <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black mt-6 font-semibold filter shadow drop-shadow-lg'>
               MINT NOW
             </button>
             </div>
@@ -285,11 +285,7 @@ const handleNav = () => {
         {/* home-banners*/}
           <div className='w-full h-full flex flex-col items-end py-6'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
-            <div className='w-[700px] flex flex-row item-center justify-evenly mt-6'>
-
-                {/*<img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/>
-                <img src='/5.jpg' className='w-[180px] h-[250px] rounded-md '/> */}
+            <div className='w-[700px] flex flex-row item-center justify-evenly mt-6 mr-[-20px]'>
                  
                  <Swiper
         slidesPerView={3}
@@ -304,11 +300,14 @@ const handleNav = () => {
         className="mySwiper"
       >
         <SwiperSlide><img src='/5.jpg' className='h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide> <img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className='h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
-        <SwiperSlide><img src='/5.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist33.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist37.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist41.jpg' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md '/></SwiperSlide>
+
 
       </Swiper>
                 
@@ -318,7 +317,7 @@ const handleNav = () => {
           
        </div>
        <div className='flex flex-col items-end justify-end absolute bottom-0 -z-10 h-auto overflow-hidden w-full'>
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fc9b40" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF7F50" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div> 
        </div>
     </div>
