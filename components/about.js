@@ -4,8 +4,8 @@ import Mintportal from './Mintportal'
 function About() {
   return (
     <div className='h-auto'>
-             <div className='w-full h-[200px] bg-brand-01 flex flex-col items-center justify center'>
-             <h1 className='font-Archivo text-6xl text-center font-semibold my-6'>Welcome to Cafe ParadiseBean!</h1>
+             <div className='w-full h-full bg-brand-01 flex flex-col items-center justify center'>
+             <h1 className='font-Archivo text-5xl text-center font-semibold my-16'>Welcome to Cafe ParadiseBean!</h1>
              </div>
         <div className='w-full h-full flex-flex-col items-center px-16 pt-8'>
            
@@ -18,7 +18,7 @@ function About() {
               <button className='text-xl font-Archivo text-black px-4 py-2 border border-black rounded-full ml-8 bg-white hover:bg-slate-400'>Join Now</button>
               </a>
             </div>
-            <div className='mt-16 ml-16'>
+            <div className='mt-16 ml-12'>
            <p className='text-xl font-Kanit text-justify'>We are the greatest place on earth you can enjoy that special cup of java with Jesus. What an incredible way to start your day off right. No matter what you're going through or where you are, He's always there with that special mug of morning goodness for you.
             Nothing says HAVE A GREAT DAY like Jesus sharing some relaxing time with you.Here at the cafe, we feature a majestic collection of 300 unique and artistic tokens, each with their own distinctive traits to make your day feel even better.
           </p>
@@ -30,7 +30,7 @@ function About() {
             <div className='flex flex-row items-start my-5'>
             
             <div className='flex flex-col items-center'>
-               <div className='mt-16 mr-16'>
+               <div className='mt-12 mr-16'>
            <p className='text-xl font-Kanit text-justify'>
 Our collection was created for you to be a beacon of inspiration and positivity. The mission of the artist is to spread a grand message of courage, motivation and movement throughout the world. So come and enjoy a fresh cup of java with Jesus, and begin your day with a smile!Our vision is for our collection to bring the light of inspiration and the incentive to strive for happiness across the globe.
 Join us on the journey to enlighten the world on this mission.
