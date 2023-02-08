@@ -23,7 +23,7 @@ function Roadmap() {
       </Head>
     <div className='w-screen h-full px-16 flex flex-col items-center'>
         <h1 className='font-Archivo text-lg font-semibold my-8'>Roadmap</h1>
-
+    </div>
         {/* slider */}
 <Slider {...settings}>
         <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
@@ -70,7 +70,7 @@ function Roadmap() {
         </div>
       
       </Slider>
-    </div>
+
     </>
   )
 }
