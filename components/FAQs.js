@@ -9,9 +9,9 @@ export default function Faqs() {
     return(
         <>
         {data.map ((item) =>
-
+            <div key={item.id}>
             <Accordian id={item.id} title={item.title} content={item.description}/>
-
+            </div>
         )}
         </>
     )
