@@ -13,8 +13,8 @@ export default function Accordian({id , title , content , active , setActive}) {
       <div className="flex flex-row justify-between items-center bg-yellow-200 p-4 w-full">
         <h1 className="text-lg font-semibold">{title}</h1>
 
-        { active === id ? (<span onClick={()=>setActive(id)} className='cursor-pointer'>X</span>):
-        (<span onClick={()=>setActive(0)} className='cursor-pointer text-xl'>+</span>)}
+        { active === id ? (<span onClick={()=>setActive(0)} className='cursor-pointer'>X</span>):
+        (<span onClick={()=>setActive(id)} className='cursor-pointer text-xl'>+</span>)}
       </div>
     
       <div className={`flex flex-col items-center p-6 bg-slate-500 ${active === id ? "h-full ease-in-out duration-1000": "hidden h-0"}`}>
