@@ -15,7 +15,7 @@ export default function Accordian({id , title , content , active , setActive}) {
         <span onClick={()=>setActive(id)}>X</span>
       </div>
     
-      <div className={`flex flex-col items-center p-6 bg-slate-500${active === id ? "h-full ease-in duration-500": "h-0"}`}>
+      <div className={`flex flex-col items-center p-6 bg-slate-500 ${active === id ? "h-full ease-in duration-500": "h-0"}`}>
         <p className='font-Archivo text-lg font-medium'>{content}</p>
       </div>
 

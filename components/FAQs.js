@@ -4,7 +4,7 @@ import data from './data.json'
 
 
 export default function Faqs() {
-    const [active, setActive] = useState ('')
+    const [active, setActive] = useState (0)
 
     return(
         <>
