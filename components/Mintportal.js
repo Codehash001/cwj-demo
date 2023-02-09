@@ -166,7 +166,7 @@ useEffect(() => {
                 {/* increment decrement buttons */}
                 <div className="font-Kanit flex items-center justify-evenly w-full">
                   <button
-                    className="w-8 h-8 md:w-14 md:h-14 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
                     onClick={decrementMintAmount}
                     >
                      <svg
@@ -188,7 +188,7 @@ useEffect(() => {
                   {mintAmount}
                   </p>
                   <button
-                    className="w-8 h-8 md:w-14 md:h-14 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
                     onClick={incrementMintAmount} 
                     >
                     <svg
@@ -217,13 +217,13 @@ useEffect(() => {
                 {/* connect wallet and mint buttons */}
                 <div className='mt-6'>
                   {paused?
-                  (<button className='px-8 py-4 bg-gray-400 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
+                  (<button className='px-10 py-3 bg-gray-400 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
                   walletAddress?
-                  (<button className='px-8 py-4 bg-black text-white rounded-full'
+                  (<button className='px-10 py-3 bg-black text-white rounded-full'
                   onClick={isPublicSale? publicMintHandler : isPreSale? PreSaleMintHandler : whitelistedFreeMintHandler}
                   disabled={paused || isMinting}>{isMinting? 'Busy...' : 'Mint now'}
                 </button>):
-                  (<button className='px-8 py-4 bg-black text-white rounded-full'
+                  (<button className='px-10 py-3 bg-black text-white rounded-full'
                   onClick={connectWalletHandler}
                   disabled={paused}>Connect Wallet
                 </button>)}
