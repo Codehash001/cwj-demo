@@ -50,3 +50,14 @@ html{
   justify-content: center;
   align-items: center;
 }
+.slick-slide > div {
+  margin: 0 30px;
+}
+
+.slick-slide>div:nth-child(1){
+  margin-left: -14px;
+}
+
+.slick-list {
+  margin-right: -14px;
+}
