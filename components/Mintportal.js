@@ -30,7 +30,7 @@ function Mintportal() {
   const [onboard, setOnboard] = useState(null)
   const [walletAddress, setWalletAddress] = useState('')
 
-  const [nav, setNav] = useState(false);
+  
 
   useEffect(() => {
     const init = async () => {
@@ -79,9 +79,7 @@ useEffect(() => {
   }
 }, [onboard, previouslySelectedWallet])
 
-const handleNav = () => {
-  setNav(!nav);
-}
+
 
   const connectWalletHandler = async () => {
     const walletSelected = await onboard.walletSelect()

@@ -25,6 +25,12 @@ import Faqs from './FAQs';
 
 
 export default function Base () {
+
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  }
   
   //slide settings
   const settings = {
