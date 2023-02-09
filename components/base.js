@@ -29,7 +29,7 @@ import { Autoplay } from "swiper";
 import Roadmap from './Roadmap';
 import Team from './Team';
 import Faqs from './FAQs';
-import Footer from './footer';
+
 
 //REMEMBER TO ADD A LOGO
 
@@ -326,7 +326,6 @@ const handleNav = () => {
       <Roadmap/>
       <Team/> 
       <Faqs/>
-      <Footer/>
      
     
     </>
