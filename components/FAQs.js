@@ -34,7 +34,7 @@ export default function Faqs() {
       <h1 className='md:text-[40px] text-[30px] bg-gradient-to-r from-rose-600 via-red-700 to-red-600 bg-clip-text text-transparent font-Archivo text-center uppercase font-semibold tracking-wide mb-8'> Frequently Asked Questions</h1>
       {data.map((item)=>
       <Accordion open={open === 1} animate={customAnimation} key={item.id}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='text-black dark:text-white font-Archivo text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(item.id)} className='text-black dark:text-white font-Archivo text-[21px]'>
           {item.title}
         </AccordionHeader>
         <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo  text-[20px]'>
