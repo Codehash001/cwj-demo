@@ -60,7 +60,7 @@ export const publicSaleMint = async (mintAmount) => {
     'latest'
   )
 
-  const cost = await nftContract.methods.publicSale_Cost()
+  const cost = await nftContract.methods.publicSale_Cost().call()
 
   
 
@@ -126,7 +126,7 @@ export const PreSaleMint = async (mintAmount) => {
   const wallet =(window.ethereum.selectedAddress)
   const numberMinted = await nftContract.methods.numberMinted(wallet) .call()
   const maxLimit = await nftContract.methods.MaxperWallet_PreSale().call()
-  const cost = await nftContract.methods.preSale_Cost()
+  const cost = await nftContract.methods.preSale_Cost().call()
   const AbleToMint = (maxLimit - numberMinted)
 
   if (AbleToMint <  mintAmount){
