@@ -3,7 +3,7 @@ import React from 'react'
 function Team() {
   return (
     <div className='flex flex-col items-center px-16'>
-        <h1 className='font-semibold font-Archivo text-xl mx-8'>Team</h1>
+        <h1 className='font-semibold font-Archivo text-5xl my-8'>Team</h1>
 
         <div className='flex flex-row items-center justify-between'>
             <div className='flex flex-col items-center p-6'>
