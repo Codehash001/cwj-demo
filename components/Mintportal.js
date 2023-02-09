@@ -220,13 +220,13 @@ useEffect(() => {
                   (<button className='px-8 py-4 bg-gray-400 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
                   walletAddress?
                   (<button className='px-8 py-4 bg-black text-white rounded-full'
-                    onClick={connectWalletHandler}
-                    disabled={paused}>Connect Wallet
-                  </button>):
-                  <button className='px-8 py-4 bg-black text-white rounded-full'
-                    onClick={isPublicSale? publicMintHandler : isPreSale? PreSaleMintHandler : whitelistedFreeMintHandler}
-                    disabled={paused || isMinting}>{isMinting? 'Busy...' : 'Mint now'}
-                  </button>}
+                  onClick={isPublicSale? publicMintHandler : isPreSale? PreSaleMintHandler : whitelistedFreeMintHandler}
+                  disabled={paused || isMinting}>{isMinting? 'Busy...' : 'Mint now'}
+                </button>):
+                  (<button className='px-8 py-4 bg-black text-white rounded-full'
+                  onClick={connectWalletHandler}
+                  disabled={paused}>Connect Wallet
+                </button>)}
                 </div>
               </div>
             </div>
@@ -236,3 +236,4 @@ useEffect(() => {
 }
 
 export default Mintportal
+
