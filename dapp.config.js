@@ -3,10 +3,9 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Dapp',
   description: 'test minting Dapp',
-  contractAddress: '0x31Ac6d1061C3b9CE1AC5476909BC55eB94375452',
-  etherscanLink:'https://etherscan.io/0x31Ac6d1061C3b9CE1AC5476909BC55eB94375452',
-  maxMintAmount: 5,
-  publicSalePrice: 0.6
+  contractAddress: '0xe703B7E445dFe32e80C2bb4cb8DFF3D4a12d75ff',
+  maxMintAmount_FreeMint: 1,
+  maxMintAmount_PreSale:3
 }
 
 const onboardOptions = {
