@@ -8,7 +8,7 @@ function Team() {
         <div className='flex flex-row items-center justify-between'>
             <div className='flex flex-col items-center p-6'>
                 <img src='/5.jpg' className='w-[200px] h-[200px]'/>
-                <h1 className='font-Archivo text-lg font-medium mt-6 mb-4'>Team Member</h1>
+                <h1 className='font-Archivo text-lg font-medium mt-3 mb-2'>Team Member</h1>
                 <h1 className='font-Archivo text-md font-medium'>Team Memberb Name</h1>
             </div>
 
@@ -35,3 +35,4 @@ function Team() {
 }
 
 export default Team
+
