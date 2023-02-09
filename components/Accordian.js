@@ -17,8 +17,8 @@ export default function Accordian({id , title , content , active , setActive}) {
         (<span onClick={()=>setActive(id)} className='cursor-pointer text-xl'>+</span>)}
       </div>
     
-      <div className={`flex flex-col items-center p-6 bg-slate-500 ${active === id ? "h-full": "hidden h-0"}`}
-      data-aos={ active === id? "fade" :"none"}>
+      <div className={`flex flex-col items-center p-6 bg-slate-500 transition ease-in-out ${active === id ? "h-full opacity-0": "hidden h-0"}`}
+     >
         <p className='font-Archivo text-lg font-medium'>{content}</p>
       </div>
 

@@ -324,7 +324,7 @@ const handleNav = () => {
       <Mintportal/>
       <Roadmap/>
       <Team/> 
-      {/* <Faqs/> */}
+      <Faqs/> 
      
     
     </>
