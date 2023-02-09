@@ -5,7 +5,7 @@ const _initBaseURI='ipfs://bafybeiekw4svr3jn2romogzecdmx4xz2khz3vfih3eaxfrvsjbkm
 async function main() {
 
   // Deploy the contract
-  const skll = await hre.ethers.getContractFactory('SKLL')
+  const skll = await hre.ethers.getContractFactory('CWJ')
   const SKLL = await skll.deploy(
     _initBaseURI)
   await SKLL.deployed()
