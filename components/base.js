@@ -29,6 +29,7 @@ import { Autoplay } from "swiper";
 import Roadmap from './Roadmap';
 import Team from './Team';
 import Faqs from './FAQs';
+import Footer from './footer';
 
 //REMEMBER TO ADD A LOGO
 
@@ -324,7 +325,8 @@ const handleNav = () => {
       <Mintportal/>
       <Roadmap/>
       <Team/> 
-      <Faqs/> 
+      <Faqs/>
+      <Footer/>
      
     
     </>
