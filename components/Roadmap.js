@@ -26,7 +26,7 @@ function Roadmap() {
     </div>
         {/* slider */}
 <Slider {...settings}>
-        <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-full p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-xl font-semibold text-brand-01 mb-2'>Phase one</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 12, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -34,7 +34,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-full p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-xl font-semibold text-brand-01 mb-2'>Phase two</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 15, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -42,7 +42,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-full p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-xl font-semibold text-brand-01 mb-2'>Phase three</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 18, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -50,7 +50,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-full p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-xl font-semibold text-brand-01 mb-2'>Phase four</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>March 3, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -58,7 +58,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-full p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-xl font-semibold text-brand-01 mb-2'>Phase five</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>March 8, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
