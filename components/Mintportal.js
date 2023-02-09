@@ -22,6 +22,7 @@ function Mintportal() {
   const [isPublicSale, setIsPublicSale] = useState(false)
   const [isFreeMint, setIsFreeMint] = useState(false)
   const [isPreSale, setIsPreSale] = useState(false)
+  const [cost, setCost] = useState(0)
   
 
   const [status, setStatus] = useState(null)
@@ -49,6 +50,10 @@ function Mintportal() {
 
       setMaxMintAmount(
         isFreeMint ? config.maxMintAmount_FreeMint : isPreSale? config.maxMintAmount_PreSale : 200
+      )
+
+      setCost (
+        isPublicSale? config.publicSalePrice : isPreSale ? config.preSalePrice : 0
       )
       
       
@@ -211,7 +216,7 @@ useEffect(() => {
                 <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
-                  <h1>0.00 ETH</h1>
+                  <h1>{cost*mintAmount}{' '} ETH</h1>
                   <h1>+ GAS</h1>
                 </div>
                 {/* connect wallet and mint buttons */}
