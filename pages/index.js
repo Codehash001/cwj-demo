@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/mobilenav'
 import Base from '../components/base'
-import Footer from './footer';
+import Footer from '../components/footer';
 
 
 export default function Home() {
