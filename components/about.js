@@ -6,9 +6,9 @@ function About() {
     <div className='h-auto'>
              <div className='w-full h-full bg-brand-01 flex flex-col items-center justify center'>
              <div className='px-6 py-4 border bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l flex items-center my-16'>
-              <h1 className='font-Kanit text-2xl text-black'>Join our Discord and get listed for free mint</h1>
+              <h1 className='font-Kanit md:text-2xl text-lg text-black'>Join our Discord and get listed for free mint</h1>
               <a href=''>
-              <button className='text-xl font-Archivo text-black px-4 py-2 border border-black rounded-full ml-8 bg-white hover:bg-slate-400'>Join Now</button>
+              <button className='md:text-xl text-[20px] font-Archivo text-black px-4 py-2 border border-black md:rounded-full ml-8 bg-white hover:bg-slate-400'>Join Now</button>
               </a>
             </div>
              </div>

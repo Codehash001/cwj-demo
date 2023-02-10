@@ -218,12 +218,35 @@ export default function Base () {
 
        <div className='md:hidden flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]'>
 
-       <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg'/>
+       <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg mb-4'/>
+
+
+       <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+        className="mySwiper"
+      >
+        <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist302.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist307.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist313.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+        <SwiperSlide> <img src='/nfts/CoffeeChrist351.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
+      </Swiper>
 
      
-       <h1 className='font-Kanit text-center mb-2 text-4xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
+       <h1 className='font-Kanit text-center mb-2 text-3xl leading-[40px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-3xl'>A majestic </span><br/>
         collection of 300 unique and artistic tokens.</h1>
-        <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black mt-6 font-semibold filter shadow drop-shadow-lg'>
+        <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black my-6 font-semibold filter shadow drop-shadow-lg'>
           MINT NOW
         </button>
 

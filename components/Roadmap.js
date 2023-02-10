@@ -41,12 +41,12 @@ function Roadmap() {
        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
 	      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
-    <div className='w-screen h-full px-16 flex flex-col items-center'>
+    <div className='w-screen h-full md:px-16 flex flex-col items-center'>
         <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold my-8'>Roadmap</h1>
     </div>
         {/* slider */}
 <Slider {...settings}>
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase one</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 12, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -54,7 +54,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase two</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 15, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -62,7 +62,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase three</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>February 18, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -70,7 +70,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase four</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>March 3, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -78,7 +78,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase five</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>March 8, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -86,7 +86,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase six</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>March 20, 2023</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
@@ -94,23 +94,12 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className='h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
+        <div className='h-[360px] md:h-[330px] p-6 flex flex-col items-center bg-gray-800 rounded-lg'>
           <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase seven</h1>
           <h1 className='text-xl font-semibold text-white mb-6'>TBA</h1>
           <p className='text-gray-200 font-medium text-justify text-md'>
           We are planning for so many great upcoming events based on our collection. Stay tuned on our Cafe Community for more news!
           </p>
-        </div>
-
-        <div class="h-[330px] relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gray-800 rounded  group">
-        <span class="w-[1000px] h-[1000px] rounded rotate-[-40deg] bg-gradient-to-r from-orange-500 to-red-700 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-2"></span>
-        <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">
-        <h1 className='text-2xl font-semibold text-brand-01 mb-2'>Phase seven</h1>
-          <h1 className='text-xl font-semibold text-white mb-6'>TBA</h1>
-          <p className='text-gray-200 font-medium text-justify text-md'>
-          We are planning for so many great upcoming events based on our collection. Stay tuned on our Cafe Community for more news!
-          </p>
-        </span>
         </div>
 
       </Slider>
