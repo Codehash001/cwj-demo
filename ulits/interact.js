@@ -4,6 +4,8 @@ const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
 const whitelist = require('../scripts/whitelist.js')
 
+// global BigInt
+
 const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL)
 const contract = require('../artifacts/contracts/CWJ.sol/CWJ.json')
 const nftContract = new web3.eth.Contract(contract.abi, config.contractAddress)
