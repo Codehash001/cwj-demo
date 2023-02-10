@@ -50,7 +50,7 @@ html{
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 700px)
+@media (max-width: 720px)
 {
 .slick-slide > div 
   {
