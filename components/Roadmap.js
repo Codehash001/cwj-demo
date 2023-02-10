@@ -9,13 +9,33 @@ function Roadmap() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive:[
+      {
+        breakpoint : 1280,
+        settings:{
+          slidesToShow:3
+        }
+      },
+      {
+        breakpoint : 1000,
+        settings:{
+          slidesToShow:2
+        }
+      },
+      {
+        breakpoint : 650,
+        settings:{
+          slidesToShow:1
+        }
+      }
+    ]
   };
   return (
     <>
     <Head>
         <title>Coffee With Jesus - Demo</title>
-        <meta name="Description" content="Coffe with Jesus - demo!" />
+        <meta name="Description" content="Coffee with Jesus - demo!" />
         <link rel="icon" href="/Logoicon.png" />
         
        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
