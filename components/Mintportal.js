@@ -163,7 +163,10 @@ useEffect(() => {
             <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
               {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
             </h1>
-            <h2 className='text-2xl font-medium mt-1 mb-2'>{walletAddress? walletAddress : 'Not Connected'}</h2>
+            <h2 className='text-xl font-medium mt-1 mb-2'>{walletAddress
+                ? walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)
+                : 'Not connected'}
+            </h2>
             <div className='flex flex-row items-center justify-between p-4'>
               <img src='/webimage1.png'
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
@@ -216,7 +219,7 @@ useEffect(() => {
                 <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
-                  <h1>{isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0} {' '} ETH</h1>
+                  <h1>{Number.parseFloat((isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0).toFixed(4))} {' '} ETH</h1>
                   <h1>+ GAS</h1>
                 </div>
                 {/* connect wallet and mint buttons */}
