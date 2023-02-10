@@ -232,7 +232,7 @@ export default function Base () {
 
       <About/>
       <Mintportal/>
-      {/* <Roadmap/> */}
+      <Roadmap/>
       <Team/> 
       <Faqs/>
      
