@@ -220,29 +220,6 @@ export default function Base () {
 
        <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg mb-4'/>
 
-
-       <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        loop={true}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide> <img src='/nfts/CoffeeChrist215.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist276.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist320.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist325.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist302.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist307.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist313.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-        <SwiperSlide> <img src='/nfts/CoffeeChrist351.png' className=' h-[250px] rounded-md border border-gray-900 dark:border-white'/></SwiperSlide>
-      </Swiper>
-
      
        <h1 className='font-Kanit text-center mb-2 text-3xl leading-[40px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-3xl'>A majestic </span><br/>
         collection of 300 unique and artistic tokens.</h1>
