@@ -158,7 +158,7 @@ useEffect(() => {
   
 
   return (
-    <div className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:mt-8'>
+    <div id='mint' className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:mt-8'>
         <div className='md:w-auto w-full py-6 md:px-6 rounded-md border border-gray-700 flex flex-col items-center'>
             <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
               {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
@@ -168,7 +168,7 @@ useEffect(() => {
                 : 'Not connected'}
             </h2>
             <div className='flex md:flex-row flex-col items-center justify-between md:p-4'>
-              <img src='/webimage1.png'
+              <img src='/nfts/nft.gif'
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
@@ -225,7 +225,7 @@ useEffect(() => {
                 {/* connect wallet and mint buttons */}
                 <div className='mt-6'>
                   {paused || isMinting ?
-                  (<button className='px-10 py-3 bg-gray-700 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
+                  (<button className='px-10 py-3 bg-gray-700 text-black rounded-full opacity-8 cursor-not-allowed'>Paused</button>):
                   walletAddress?
                   (<button className='px-10 py-3 bg-black text-white rounded-full'
                   onClick={isPublicSale? publicMintHandler : isPreSale? PreSaleMintHandler : whitelistedFreeMintHandler}

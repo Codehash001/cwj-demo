@@ -58,26 +58,26 @@ export default function Base () {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Kanit text-[18px] flex'><span className='font-semibold'>Coffee</span><span className='mx-[4px]'>With</span><span>Jesus</span> </h1>
+          <h1 className='font-Kanit text-[22px] flex'><span className='font-semibold'>Coffee</span><span className='mx-[4px]'>With</span><span>Jesus</span> </h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-            <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
+            <Link className="cursor-pointer" activeClass ="active" to='about' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>ROADMAP</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='roadmap' spy={true} smooth={true} offset={50} duration={500}>ROADMAP</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>TEAM</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='team' spy={true} smooth={true} offset={50} duration={500}>TEAM</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='faq' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
             </li>
-            {/* dark mode button and wallet button */}
+            {/* dark mode button */}
           <div className='flex items-center justify-between'>
               <div className='ml-6'>
                  <Darkmodebutton/>
@@ -126,16 +126,16 @@ export default function Base () {
             <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>HOME</Link>
             </li>
             <li  className='py-4 text-sm'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
+            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='about' spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
             </li>
             <li  className='py-4 text-sm'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
+            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
             </li>
             <li  className='py-4 text-sm'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer upercase" activeClass ="active" to='faqs' spy={true} smooth={true} offset={-100} duration={500}>rOADMAP</Link>
+            <Link onClick={() => setNav(false)} className="cursor-pointer upercase" activeClass ="active" to='roadmap' spy={true} smooth={true} offset={-100} duration={500}>ROADMAP</Link>
             </li>
             <li  className='py-4 text-sm'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={-100} duration={500}>FAQs</Link>
+            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='faq' spy={true} smooth={true} offset={-100} duration={500}>FAQs</Link>
             </li>
             
           </ul>
@@ -170,7 +170,7 @@ export default function Base () {
             </div>
           </div> 
         {/* home texts */}
-          <div className='w-auto flex flex-col items-center justify-start py-6 px-16'>
+          <div className='w-auto flex flex-col items-center justify-start py-8 px-16'>
             <div className='flex flex-col items-start w-[300px]'>
               <h1 className='font-Kanit text-start mb-2 text-5xl leading-[55px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
@@ -180,7 +180,7 @@ export default function Base () {
             </div>
           </div>
         {/* home-banners*/}
-          <div className='w-full h-full flex flex-col items-end py-6'>
+          <div className='w-full h-full flex flex-col items-end py-8'>
             <img src='/webbanner.jpg' className='w-[700px] h-auto border-2 border-white rounded-lg'/>
             <div className='w-[700px] flex flex-row item-center justify-evenly mt-6'>
                  
@@ -221,6 +221,8 @@ export default function Base () {
        <div className='md:hidden flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]'>
 
        <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg mb-4'/>
+
+       <img src='/nfts/nft.gif' className='w-srceen-auto border-2 border-white rounded-lg mb-4'/>
 
      
        <h1 className='font-Kanit text-center mb-2 text-3xl leading-[40px]'><span className='bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-3xl'>A majestic </span><br/>

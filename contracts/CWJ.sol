@@ -17,7 +17,7 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
   uint256 public publicSale_Cost = 0.095 ether;
   uint256 public preSale_Cost = 0.08 ether;
 
-  uint256 public maxSupply = 314;
+  uint256 public maxSupply = 305;
   uint256 public WlFreemint_Supply = 20;
   uint256 public preSale_Supply = 40 ;
   uint256 public publicSale_Supply = 200;
@@ -27,9 +27,9 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
 
   bool public paused = false;
   bool public revealed = true;
-  bool public PreSale_Live = true;
-  bool public publicSale_Live = true;
-  bool public WlFreemint_Live = true;
+  bool public PreSale_Live = false;
+  bool public publicSale_Live = false;
+  bool public WlFreemint_Live = false;
 
   bytes32 public merkleRoot = 0;
 

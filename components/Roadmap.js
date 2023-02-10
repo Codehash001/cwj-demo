@@ -41,7 +41,7 @@ function Roadmap() {
        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
 	      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
-    <div className='w-screen h-full md:px-16 flex flex-col items-center'>
+    <div id='roadmap' className='w-screen h-full md:px-16 flex flex-col items-center'>
         <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold my-8'>Roadmap</h1>
     </div>
         {/* slider */}

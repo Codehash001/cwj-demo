@@ -2,7 +2,7 @@ import React from 'react'
 
 function Team() {
   return (
-    <div className='flex flex-col items-center md:px-16 px-2'>
+    <div id='team' className='flex flex-col items-center md:px-16 px-2'>
         <h1 className='font-semibold font-Archivo text-5xl my-10 bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Team</h1>
 
         <div className='flex md:flex-row flex-col items-center justify-between'>

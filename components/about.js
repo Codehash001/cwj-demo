@@ -3,7 +3,7 @@ import Mintportal from './Mintportal'
 
 function About() {
   return (
-    <div className='h-auto'>
+    <div id='about' className='h-auto'>
             <div className='w-full h-[80px] bg-brand-01 flex flex-col items-center justify center'></div>
              <div className='w-full h-full bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col items-center justify center md:mt-16'>
              <div className='px-6 py-4 border bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l md:flex md:flex-row flex-col items-center md:my-16 my-8'>
