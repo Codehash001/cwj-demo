@@ -159,7 +159,7 @@ useEffect(() => {
 
   return (
     <div className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2'>
-        <div className='w-auto p-6 rounded-md border border-gray-700 flex flex-col items-center'>
+        <div className='md:w-auto w-full md:p-6 rounded-md border border-gray-700 flex flex-col items-center'>
             <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
               {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
             </h1>
@@ -167,7 +167,7 @@ useEffect(() => {
                 ? walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)
                 : 'Not connected'}
             </h2>
-            <div className='flex md:flex-row flex-col items-center justify-between p-4'>
+            <div className='flex md:flex-row flex-col items-center justify-between md:p-4'>
               <img src='/webimage1.png'
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
