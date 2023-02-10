@@ -1,6 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
 import Head from 'next/head';
+import Prarrow from './prarrow';
+import Nearrow from './Nearrow';
 
 function Roadmap() {
 
@@ -10,6 +12,8 @@ function Roadmap() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <Nearrow/>,
+    prewArrow:<Prarrow/>,
     responsive:[
       {
         breakpoint : 1280,
