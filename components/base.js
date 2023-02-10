@@ -230,8 +230,8 @@ export default function Base () {
        </div>
     </div>
 
-      {/* <About/> */}
-      <Mintportal/>
+      <About/>
+      {/* <Mintportal/> */}
       <Roadmap/>
       <Team/> 
       <Faqs/>
