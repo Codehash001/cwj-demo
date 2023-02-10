@@ -50,8 +50,20 @@ html{
   justify-content: center;
   align-items: center;
 }
-.slick-slide > div {
-  margin: 0 48px;
+@media (max-width: 700px)
+{
+.slick-slide > div 
+  {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 1500px)
+{
+.slick-slide > div 
+  {
+    margin: 0 48px;
+  }
 }
 
 
