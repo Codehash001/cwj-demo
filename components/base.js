@@ -58,7 +58,7 @@ export default function Base () {
     <div>
     <div className='fixed z-[100] top-0 flex items-center justify-between w-full h-[60px] px-2 lg:px-16 bg-transparent filter backdrop-blur-md'>
         <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-          <h1 className='font-Kanit text-[18px] flex'><span className='font-semibold'>Coffee</span><span className='mx-[2px]'>With</span><span>Jesus</span> </h1>
+          <h1 className='font-Kanit text-[18px] flex'><span className='font-semibold'>Coffee</span><span className='mx-[4px]'>With</span><span>Jesus</span> </h1>
         </Link>
         <div>
           <ul className='hidden md:flex font-Archivo front-medium items-center justify-betweeen '>
@@ -159,7 +159,7 @@ export default function Base () {
       <div className='hidden md:flex h-screen'>
        <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
         {/* veticle menu */}
-          <div className='w-[70px] h-screen py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
+          <div className='w-[70px] h-[1000px] py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
               <a href='https://www.instagram.com/invites/contact/?i=1tdilz110ip1f&utm_content=qc8yqu1'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Instagram</h1></a>
               <a href='https://discord.gg/rBJfTDYE'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Discord</h1></a>
