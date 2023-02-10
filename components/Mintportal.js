@@ -158,7 +158,7 @@ useEffect(() => {
   
 
   return (
-    <div className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2'>
+    <div className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:mt-8'>
         <div className='md:w-auto w-full md:p-6 rounded-md border border-gray-700 flex flex-col items-center'>
             <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
               {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
@@ -172,7 +172,7 @@ useEffect(() => {
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
-                <div className="font-Kanit flex items-center justify-evenly w-full">
+                <div className="font-Kanit flex items-center justify-evenly w-full md:mt-0 mt-4">
                   <button
                     className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
                     onClick={decrementMintAmount}

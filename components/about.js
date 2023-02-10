@@ -4,7 +4,8 @@ import Mintportal from './Mintportal'
 function About() {
   return (
     <div className='h-auto'>
-             <div className='w-full h-full bg-brand-01 flex flex-col items-center justify center'>
+            <div className='w-full h-[80px] bg-brand-01 flex flex-col items-center justify center'></div>
+             <div className='w-full h-full bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col items-center justify center'>
              <div className='px-6 py-4 border bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l flex items-center my-16'>
               <h1 className='font-Kanit md:text-2xl text-lg text-black'>Join our Discord and get listed for free mint</h1>
               <a href=''>
@@ -12,7 +13,7 @@ function About() {
               </a>
             </div>
              </div>
-        <div className='w-full h-full hidden md:flex-flex-col items-center px-16 pt-8'>
+        <div className='w-full h-full hidden md:flex flex-col items-center px-16 pt-8'>
            
            <div className='flex flex-row items-start mb-5'>
             <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg'/>
