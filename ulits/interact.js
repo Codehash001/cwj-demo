@@ -69,7 +69,7 @@ export const publicSaleMint = async (mintAmount) => {
     to: config.contractAddress,
     from: window.ethereum.selectedAddress,
     value: parseInt(
-      web3.utils.toWei(String(cost*mintAmount), 'ether')
+      web3.utils.toWei(String(cost*mintAmount), 'Wei')
     ).toString(16), // hex
     gas: String(25000 * mintAmount),
     data: nftContract.methods.publicSaleMint(mintAmount).encodeABI(),

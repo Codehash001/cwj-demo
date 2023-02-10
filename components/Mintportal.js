@@ -49,7 +49,7 @@ function Mintportal() {
       setIsFreeMint(isFreeMint)
 
       setMaxMintAmount(
-        isFreeMint ? config.maxMintAmount_FreeMint : isPreSale? config.maxMintAmount_PreSale : 200
+        isPublicSale? config.maxMintAmount_Public : isPreSale ? config.maxMintAmount_PreSale : 1
       )
 
       setCost (
