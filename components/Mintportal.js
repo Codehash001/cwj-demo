@@ -216,13 +216,13 @@ useEffect(() => {
                 <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
-                  <h1>{cost*mintAmount}{' '} ETH</h1>
+                  <h1>{isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0} {' '} ETH</h1>
                   <h1>+ GAS</h1>
                 </div>
                 {/* connect wallet and mint buttons */}
                 <div className='mt-6'>
-                  {paused?
-                  (<button className='px-10 py-3 bg-gray-400 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
+                  {paused || isMinting ?
+                  (<button className='px-10 py-3 bg-gray-700 text-white rounded-full opacity-5 cursor-disabled'>Paused</button>):
                   walletAddress?
                   (<button className='px-10 py-3 bg-black text-white rounded-full'
                   onClick={isPublicSale? publicMintHandler : isPreSale? PreSaleMintHandler : whitelistedFreeMintHandler}
