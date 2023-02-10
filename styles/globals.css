@@ -60,4 +60,12 @@ html{
   }
 }
 
+@media (max-width: 720px)
+{
+.slick-slide > div 
+  {
+    margin: 0;
+  }
+}
+
 
