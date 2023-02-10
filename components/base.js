@@ -217,7 +217,7 @@ export default function Base () {
 
        {/* mobile home */}
 
-       <div className='flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]'>
+       <div className='md:hidden flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]'>
 
        <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg'/>
 

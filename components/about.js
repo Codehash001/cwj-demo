@@ -12,7 +12,7 @@ function About() {
               </a>
             </div>
              </div>
-        <div className='w-full h-full flex-flex-col items-center px-16 pt-8'>
+        <div className='w-full h-full hidden md:flex-flex-col items-center px-16 pt-8'>
            
            <div className='flex flex-row items-start mb-5'>
             <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg'/>
@@ -46,6 +46,23 @@ Join us on the journey to enlighten the world on this mission.
             
            </div>
            
+        </div>
+
+        <div className='md:hidden flex flex-col w-full h-full items-center px-2'>
+
+        <h1 className='font-Archivo text-3xl text-center font-semibold my-4 bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent'>Welcome to Cafe ParadiseBean!</h1>
+        <img src='/webimage1.png' className='w-[400px] h-auto rounded-lg my-4'/>
+
+        <p className='text-lg font-Kanit text-justify my-4'>We are the greatest place on earth you can enjoy that special cup of java with Jesus. What an incredible way to start your day off right. No matter what you're going through or where you are, He's always there with that special mug of morning goodness for you.
+            Nothing says HAVE A GREAT DAY like Jesus sharing some relaxing time with you.Here at the cafe, we feature a majestic collection of 300 unique and artistic tokens, each with their own distinctive traits to make your day feel even better.
+        </p>
+
+        <img src='/webimage2.png' className='w-[400px] h-auto my-4 rounded-lg'/>
+
+        <p className='text-xl font-Kanit text-justify my-4'>
+Our collection was created for you to be a beacon of inspiration and positivity. The mission of the artist is to spread a grand message of courage, motivation and movement throughout the world. So come and enjoy a fresh cup of java with Jesus, and begin your day with a smile!Our vision is for our collection to bring the light of inspiration and the incentive to strive for happiness across the globe.
+Join us on the journey to enlighten the world on this mission.
+            </p>
         </div>
  
     </div>
