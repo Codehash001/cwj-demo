@@ -15,12 +15,12 @@ export default function App({ Component, pageProps }) {
   
   return (
    
-    <div>
+    <>
   <ThemeProvider enableSystem={true} attribute='class'>
   <Component {...pageProps} />
   </ThemeProvider>
   <Analytics />
-  </div>
+  </>
   
   )
 }
