@@ -12,7 +12,7 @@ const config = {
 
 const onboardOptions = {
   dappId: process.env.NEXT_PUBLIC_DAPP_ID,
-  networkId: 5, // Goerli
+  networkId: 1, // Goerli
   darkMode: true,
   walletSelect: {
     description:'Plaese select a wallet',

@@ -35,7 +35,7 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
 
   constructor(
     string memory _initBaseURI
-  ) ERC721A("Coffee with Jesus", "CWJ") {
+  ) ERC721A("Coffee With Jesus", "CWJ") {
     setBaseURI(_initBaseURI);
     
   }
@@ -55,7 +55,7 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
     uint256 supply = totalSupply();
     require(tokens > 0, "need to mint at least 1 NFT");
     require(supply + tokens <= maxSupply, "We Soldout");
-    require(supply + tokens <= publicSale_Supply + preSale_Supply + WlFreemint_Supply, "publicSale supply reached max");
+    require(supply + tokens <= publicSale_Supply + preSale_Supply + WlFreemint_Supply + _numberMinted(owner()), "publicSale supply reached max");
     require(msg.value >= publicSale_Cost * tokens, "insufficient funds");
 
       _safeMint(_msgSender(), tokens);
@@ -70,7 +70,7 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
     require(_numberMinted(_msgSender()) + tokens <= MaxperWallet_PreSale, "Max NFT Per Wallet exceeded");
     require(tokens > 0, "need to mint at least 1 NFT");
     require(supply + tokens <= maxSupply, "We Soldout");
-    require(supply + tokens <= preSale_Supply + WlFreemint_Supply, "preSale supply reached max");
+    require(supply + tokens <= preSale_Supply + WlFreemint_Supply + _numberMinted(owner()), "preSale supply reached max");
     require(tokens <= MaxperWallet_PreSale, "max mint per Tx exceeded");
     require(msg.value >= preSale_Cost * tokens, "not enough eth sent");
 
@@ -88,7 +88,7 @@ contract CWJ is ERC721A, Ownable, ReentrancyGuard {
     require(_numberMinted(_msgSender()) + tokens <= MaxPerWallet_WlFreeMint, "Max NFT Per Wallet exceeded");
     require(tokens > 0, "need to mint at least 1 NFT");
     require(supply + tokens <= maxSupply, "We Soldout");
-    require(supply + tokens <= WlFreemint_Supply, "FreeMint supply reached max");
+    require(supply + tokens <= WlFreemint_Supply + _numberMinted(owner()), "FreeMint supply reached max");
     require(tokens <= MaxPerWallet_WlFreeMint, "max mint per Tx exceeded");
 
       _safeMint(_msgSender(), tokens);

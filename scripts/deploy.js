@@ -1,6 +1,6 @@
 const hre = require('hardhat')
 
-const _initBaseURI='ipfs://bafybeiekw4svr3jn2romogzecdmx4xz2khz3vfih3eaxfrvsjbkmknod6u/'
+const _initBaseURI='ipfs://bafybeicmircqthslaiwshhiqnlwaf2d3byomgruqy425njrvbz7krc6ocu/'
 
 async function main() {
 
