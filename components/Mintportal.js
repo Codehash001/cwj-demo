@@ -1,6 +1,7 @@
 import React, { useRef, useState , useEffect } from "react";
 import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
+import data from './imagedata.json'
 
 import {
   getTotalMinted,
@@ -23,6 +24,10 @@ function Mintportal() {
   const [isFreeMint, setIsFreeMint] = useState(false)
   const [isPreSale, setIsPreSale] = useState(false)
   const [cost, setCost] = useState(0)
+
+  const[ currentImageId, setCurrentImageId] = useState(1)
+  const[ prevImageId, setPrevImageId] = useState(1)
+  const[ nextImageId, setNextImageId] = useState(1)
   
 
   const [status, setStatus] = useState(null)
@@ -55,6 +60,10 @@ function Mintportal() {
       setCost (
         isPublicSale? config.publicSalePrice : isPreSale ? config.preSalePrice : 0
       )
+
+      setPrevImageId(totalMinted-1)
+      setCurrentImageId(totalMinted)
+      setNextImageId(totalMinted  + 1)
       
       
     }
@@ -168,7 +177,7 @@ useEffect(() => {
                 : 'Not connected'}
             </h2>
             <div className='flex md:flex-row flex-col items-center justify-between md:p-4'>
-              <img src='/nfts/nft.gif'
+              <img src={`${data[currentImageId].image}`}
               className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
