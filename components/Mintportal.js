@@ -64,6 +64,7 @@ function Mintportal() {
       setPrevImageId(totalMinted-1)
       setCurrentImageId(totalMinted)
       setNextImageId(totalMinted  + 1)
+      console.log(currentImageId)
       
       
     }

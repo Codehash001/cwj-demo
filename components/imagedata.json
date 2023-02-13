@@ -1,7 +1,7 @@
 [
 {
   "name": "CoffeeChrist 1",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/11.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/11.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -77,7 +77,7 @@
 },
 {
   "name": "CoffeeChrist 2",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/15.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/15.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -153,7 +153,7 @@
 },
 {
   "name": "CoffeeChrist 11",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/6.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/6.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -229,7 +229,7 @@
 },
 {
   "name": "CoffeeChrist 12",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/9.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/9.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -305,7 +305,7 @@
 },
 {
   "name": "CoffeeChrist 13",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/12.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/12.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -381,7 +381,7 @@
 },
 {
   "name": "CoffeeChrist 14",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/17.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/17.jpg",
   "attributes": [
     {
       "trait_type": "Background",
@@ -457,7 +457,7 @@
 },
 {
   "name": "CoffeeChrist 15",
-  "image": "ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/18.jpg",
+  "image": "https://ipfs.io/ipfs/QmebyyskUcwc6RnUZtZbJCcn28NDc8EiM8zwjXkn6u5Wxd/18.jpg",
   "attributes": [
     {
       "trait_type": "Background",
